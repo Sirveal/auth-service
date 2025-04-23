@@ -1,0 +1,15 @@
+port: "8000"
+
+auth:
+    signing_key: "qrkjk#4#%35FSFJlja#4353KSFjH"
+    token_ttl: "15m"
+    refresh_token_ttl: "720h"
+    bcrypt_cost: 12
+
+db:
+    username: "postgres"
+    host: "postgres"
+    # host: "localhost"
+    port: "5432"
+    dbname: "test"
+    sslmode: "disable"
